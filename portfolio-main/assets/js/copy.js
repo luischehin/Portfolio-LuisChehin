@@ -5,9 +5,9 @@ function copyFunction() {
     // Send message into the console
     console.log("Successfully copied Discord tag to clipboard");
     // Write text from bracket to clipboard
-    navigator.clipboard.writeText("Kléma#2152");
+    navigator.clipboard.writeText("luischehinok@gmail.com");
     // Wait one seconds, then remove class from button
-    setTimeout(function() {
+    setTimeout(function () {
         copyText.classList.remove("btn-success");
     }, 1000);
 }
